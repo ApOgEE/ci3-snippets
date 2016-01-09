@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$this->db->get_where('${1:Table}', array(
+	'${2:field}' => \$${3:value},
+));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>db_getwhere</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Active Record DB Get Where</description>
+</snippet>
